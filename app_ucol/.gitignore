@@ -1,0 +1,70 @@
+# ------------------------------------------
+# ⚙️ Archivos de configuración / sistema
+# ------------------------------------------
+*.class
+*.log
+*.pyc
+*.swp
+*.lock
+*.tmp
+.DS_Store
+.packages
+*.bak
+*.orig
+
+# ------------------------------------------
+# 🧠 Historiales, backups y herramientas
+# ------------------------------------------
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+.vscode/
+.idea/
+*.iml
+
+# ------------------------------------------
+# 🔧 Flutter / Dart / Pub
+# ------------------------------------------
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.flutter-versions
+.pub-cache/
+.pub/
+build/
+**/build/
+
+# ------------------------------------------
+# 📱 iOS / Android / Web / Windows builds
+# ------------------------------------------
+**/ios/Flutter/.last_build_id
+**/ios/Pods/
+**/ios/.symlinks/
+**/ios/Runner.xcworkspace/
+**/macos/Flutter/ephemeral/
+**/macos/Pods/
+**/android/app/debug
+**/android/app/profile
+**/android/app/release
+**/windows/Flutter/ephemeral/
+**/linux/Flutter/ephemeral/
+**/web/.dart_tool/
+**/web/build/
+
+# ------------------------------------------
+# 🧪 Archivos temporales de prueba / coverage
+# ------------------------------------------
+coverage/
+test-output/
+*.test.*
+*.result.*
+
+# ------------------------------------------
+# 🧩 Archivos de símbolos u ofuscación
+# ------------------------------------------
+app.*.symbols
+app.*.map.json
